@@ -15,4 +15,4 @@ jobs:
         username: if0_37105351
         password: ${{ secrets.FTPPASSWORD }}
         protocol: ftps
-        server_dir: public_html/testingftp/
+        server-dir: public_html/testingftp/
