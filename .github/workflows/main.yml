@@ -13,6 +13,6 @@ jobs:
       with:
         server: ftpuplod.net
         username: if0_37105351
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.FTPPASSWORD }}
         protocol: ftps
         server_dir: public_html/testingftp/
